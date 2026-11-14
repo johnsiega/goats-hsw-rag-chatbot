@@ -17,6 +17,7 @@ venv/
 Thumbs.db
 .idea/
 .vscode/
+.superpowers/
 
 # Generated build output and the accidental local scratch file
 verification/build_*.log

@@ -1,0 +1,304 @@
+{
+ "check1": {
+  "app_py_sha256": "ea6778fc9f0d3e176cf57ffee852d2eb9a605622207ec97a74a5ee464bd03763",
+  "app_prompt_sha256": "e5236f33c55a8660c601223ff3f2979f407fe25d14799e3b3e0e889c48650d6a",
+  "notebook_prompt_sha256": "e5236f33c55a8660c601223ff3f2979f407fe25d14799e3b3e0e889c48650d6a",
+  "equal": true
+ },
+ "check3_via_passages": {
+  "questions": 24,
+  "exact_matches": 24,
+  "mean_latency_s": 5.73,
+  "max_latency_s": 27.92,
+  "rows": [
+   {
+    "Eval_ID": "HRSD-Q1",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     949,
+     946,
+     924,
+     950,
+     330
+    ]
+   },
+   {
+    "Eval_ID": "RES310-Q3",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     937,
+     924,
+     956,
+     955,
+     933
+    ]
+   },
+   {
+    "Eval_ID": "BIL-Q2",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     355,
+     354,
+     356,
+     821,
+     125
+    ]
+   },
+   {
+    "Eval_ID": "OWWA-Q2",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     368,
+     125,
+     367,
+     124,
+     123
+    ]
+   },
+   {
+    "Eval_ID": "RA11862-Q2",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     902,
+     888,
+     887,
+     25,
+     903
+    ]
+   },
+   {
+    "Eval_ID": "RA10364-Q1",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     879,
+     51,
+     893,
+     891,
+     876
+    ]
+   },
+   {
+    "Eval_ID": "IRR-Q1",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     7,
+     878,
+     6,
+     891,
+     25
+    ]
+   },
+   {
+    "Eval_ID": "CONTRACT-Q4",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     955,
+     979,
+     962,
+     978,
+     933
+    ]
+   },
+   {
+    "Eval_ID": "CONTACT-Q3",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     64,
+     60,
+     329,
+     67,
+     65
+    ]
+   },
+   {
+    "Eval_ID": "MC04-Q4",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     75,
+     86,
+     71,
+     72,
+     70
+    ]
+   },
+   {
+    "Eval_ID": "MC1997-Q3",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     333,
+     330,
+     460,
+     332,
+     833
+    ]
+   },
+   {
+    "Eval_ID": "MC1999-Q4",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     340,
+     336,
+     335,
+     116,
+     73
+    ]
+   },
+   {
+    "Eval_ID": "RA10801-Q1",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     124,
+     367,
+     181,
+     372,
+     123
+    ]
+   },
+   {
+    "Eval_ID": "RA11641-Q3",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     915,
+     756,
+     620,
+     61,
+     327
+    ]
+   },
+   {
+    "Eval_ID": "RA10022-Q2",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     564,
+     448,
+     815,
+     449,
+     879
+    ]
+   },
+   {
+    "Eval_ID": "RA8042-Q4",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     448,
+     564,
+     815,
+     816,
+     449
+    ]
+   },
+   {
+    "Eval_ID": "UNANS-01",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     976,
+     977,
+     338,
+     980,
+     983
+    ]
+   },
+   {
+    "Eval_ID": "UNANS-02",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     338,
+     921,
+     970,
+     948,
+     950
+    ]
+   },
+   {
+    "Eval_ID": "UNANS-03",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     970,
+     338,
+     957,
+     934,
+     980
+    ]
+   },
+   {
+    "Eval_ID": "UNANS-04",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     356,
+     975,
+     973,
+     316,
+     974
+    ]
+   },
+   {
+    "Eval_ID": "UNANS-05",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     921,
+     920,
+     948,
+     348,
+     965
+    ]
+   },
+   {
+    "Eval_ID": "UNANS-06",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     970,
+     937,
+     938,
+     955,
+     939
+    ]
+   },
+   {
+    "Eval_ID": "UNANS-07",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     310,
+     356,
+     312,
+     311,
+     329
+    ]
+   },
+   {
+    "Eval_ID": "UNANS-08",
+    "match": true,
+    "passages_found": 5,
+    "log_ids": [
+     977,
+     930,
+     338,
+     960,
+     978
+    ]
+   }
+  ]
+ }
+}

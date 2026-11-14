@@ -1,0 +1,6 @@
+*
+!requirements.txt
+!app.py
+!data/chunks.jsonl
+!data/embeddings.npy
+!style.css

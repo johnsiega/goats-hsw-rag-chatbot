@@ -1,0 +1,674 @@
+{
+ "latency_retrieval_only": {
+  "first_call_s": 24.66,
+  "second_call_s": 1.04
+ },
+ "check2": {
+  "n": 20,
+  "pool_size_le_500_chars": 207,
+  "min_cosine": 1.0,
+  "all_top1_own": true,
+  "rows": [
+   {
+    "chunk": 283,
+    "top1": 283,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 148,
+    "top1": 148,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 349,
+    "top1": 349,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 704,
+    "top1": 704,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 68,
+    "top1": 68,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 93,
+    "top1": 93,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 528,
+    "top1": 528,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 105,
+    "top1": 105,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 322,
+    "top1": 322,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 602,
+    "top1": 602,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 78,
+    "top1": 78,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 486,
+    "top1": 486,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 203,
+    "top1": 203,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 61,
+    "top1": 61,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 101,
+    "top1": 101,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 401,
+    "top1": 401,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 393,
+    "top1": 393,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 91,
+    "top1": 91,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 235,
+    "top1": 235,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   },
+   {
+    "chunk": 103,
+    "top1": 103,
+    "top1_is_own_text": true,
+    "sq_l2": 0.0,
+    "cosine": 1.0
+   }
+  ]
+ },
+ "check3": {
+  "questions": 24,
+  "exact_matches": 24,
+  "max_abs_distance_diff_on_matches": 4.899999999996574e-05,
+  "rows": [
+   {
+    "Eval_ID": "HRSD-Q1",
+    "match": true,
+    "service_top5": [
+     949,
+     946,
+     924,
+     950,
+     330
+    ],
+    "log_top5": [
+     949,
+     946,
+     924,
+     950,
+     330
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 2.8000000000028002e-05
+   },
+   {
+    "Eval_ID": "RES310-Q3",
+    "match": true,
+    "service_top5": [
+     937,
+     924,
+     956,
+     955,
+     933
+    ],
+    "log_top5": [
+     937,
+     924,
+     956,
+     955,
+     933
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 2.5000000000052758e-05
+   },
+   {
+    "Eval_ID": "BIL-Q2",
+    "match": true,
+    "service_top5": [
+     355,
+     354,
+     356,
+     821,
+     125
+    ],
+    "log_top5": [
+     355,
+     354,
+     356,
+     821,
+     125
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.6999999999908226e-05
+   },
+   {
+    "Eval_ID": "OWWA-Q2",
+    "match": true,
+    "service_top5": [
+     368,
+     125,
+     367,
+     124,
+     123
+    ],
+    "log_top5": [
+     368,
+     125,
+     367,
+     124,
+     123
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.899999999996574e-05
+   },
+   {
+    "Eval_ID": "RA11862-Q2",
+    "match": true,
+    "service_top5": [
+     902,
+     888,
+     887,
+     25,
+     903
+    ],
+    "log_top5": [
+     902,
+     888,
+     887,
+     25,
+     903
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 3.4000000000089514e-05
+   },
+   {
+    "Eval_ID": "RA10364-Q1",
+    "match": true,
+    "service_top5": [
+     879,
+     51,
+     893,
+     891,
+     876
+    ],
+    "log_top5": [
+     879,
+     51,
+     893,
+     891,
+     876
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 3.399999999997849e-05
+   },
+   {
+    "Eval_ID": "IRR-Q1",
+    "match": true,
+    "service_top5": [
+     7,
+     878,
+     6,
+     891,
+     25
+    ],
+    "log_top5": [
+     7,
+     878,
+     6,
+     891,
+     25
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.700000000001925e-05
+   },
+   {
+    "Eval_ID": "CONTRACT-Q4",
+    "match": true,
+    "service_top5": [
+     955,
+     979,
+     962,
+     978,
+     933
+    ],
+    "log_top5": [
+     955,
+     979,
+     962,
+     978,
+     933
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 2.8999999999945736e-05
+   },
+   {
+    "Eval_ID": "CONTACT-Q3",
+    "match": true,
+    "service_top5": [
+     64,
+     60,
+     329,
+     67,
+     65
+    ],
+    "log_top5": [
+     64,
+     60,
+     329,
+     67,
+     65
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.499999999996174e-05
+   },
+   {
+    "Eval_ID": "MC04-Q4",
+    "match": true,
+    "service_top5": [
+     75,
+     86,
+     71,
+     72,
+     70
+    ],
+    "log_top5": [
+     75,
+     86,
+     71,
+     72,
+     70
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.599999999999049e-05
+   },
+   {
+    "Eval_ID": "MC1997-Q3",
+    "match": true,
+    "service_top5": [
+     333,
+     330,
+     460,
+     332,
+     833
+    ],
+    "log_top5": [
+     333,
+     330,
+     460,
+     332,
+     833
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.700000000001925e-05
+   },
+   {
+    "Eval_ID": "MC1999-Q4",
+    "match": true,
+    "service_top5": [
+     340,
+     336,
+     335,
+     116,
+     73
+    ],
+    "log_top5": [
+     340,
+     336,
+     335,
+     116,
+     73
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 3.799999999998249e-05
+   },
+   {
+    "Eval_ID": "RA10801-Q1",
+    "match": true,
+    "service_top5": [
+     124,
+     367,
+     181,
+     372,
+     123
+    ],
+    "log_top5": [
+     124,
+     367,
+     181,
+     372,
+     123
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 3.0999999999892225e-05
+   },
+   {
+    "Eval_ID": "RA11641-Q3",
+    "match": true,
+    "service_top5": [
+     915,
+     756,
+     620,
+     61,
+     327
+    ],
+    "log_top5": [
+     915,
+     756,
+     620,
+     61,
+     327
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 3.2000000000032e-05
+   },
+   {
+    "Eval_ID": "RA10022-Q2",
+    "match": true,
+    "service_top5": [
+     564,
+     448,
+     815,
+     449,
+     879
+    ],
+    "log_top5": [
+     564,
+     448,
+     815,
+     449,
+     879
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.799999999993698e-05
+   },
+   {
+    "Eval_ID": "RA8042-Q4",
+    "match": true,
+    "service_top5": [
+     448,
+     564,
+     815,
+     816,
+     449
+    ],
+    "log_top5": [
+     448,
+     564,
+     815,
+     816,
+     449
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.700000000001925e-05
+   },
+   {
+    "Eval_ID": "UNANS-01",
+    "match": true,
+    "service_top5": [
+     976,
+     977,
+     338,
+     980,
+     983
+    ],
+    "log_top5": [
+     976,
+     977,
+     338,
+     980,
+     983
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.0000000000040004e-05
+   },
+   {
+    "Eval_ID": "UNANS-02",
+    "match": true,
+    "service_top5": [
+     338,
+     921,
+     970,
+     948,
+     950
+    ],
+    "log_top5": [
+     338,
+     921,
+     970,
+     948,
+     950
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.2999999999904226e-05
+   },
+   {
+    "Eval_ID": "UNANS-03",
+    "match": true,
+    "service_top5": [
+     970,
+     338,
+     957,
+     934,
+     980
+    ],
+    "log_top5": [
+     970,
+     338,
+     957,
+     934,
+     980
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 3.900000000001125e-05
+   },
+   {
+    "Eval_ID": "UNANS-04",
+    "match": true,
+    "service_top5": [
+     356,
+     975,
+     973,
+     316,
+     974
+    ],
+    "log_top5": [
+     356,
+     975,
+     973,
+     316,
+     974
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.599999999999049e-05
+   },
+   {
+    "Eval_ID": "UNANS-05",
+    "match": true,
+    "service_top5": [
+     921,
+     920,
+     948,
+     348,
+     965
+    ],
+    "log_top5": [
+     921,
+     920,
+     948,
+     348,
+     965
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.0000000000040004e-05
+   },
+   {
+    "Eval_ID": "UNANS-06",
+    "match": true,
+    "service_top5": [
+     970,
+     937,
+     938,
+     955,
+     939
+    ],
+    "log_top5": [
+     970,
+     937,
+     938,
+     955,
+     939
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 4.4000000000044004e-05
+   },
+   {
+    "Eval_ID": "UNANS-07",
+    "match": true,
+    "service_top5": [
+     310,
+     356,
+     312,
+     311,
+     329
+    ],
+    "log_top5": [
+     310,
+     356,
+     312,
+     311,
+     329
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 2.2999999999884224e-05
+   },
+   {
+    "Eval_ID": "UNANS-08",
+    "match": true,
+    "service_top5": [
+     977,
+     930,
+     338,
+     960,
+     978
+    ],
+    "log_top5": [
+     977,
+     930,
+     338,
+     960,
+     978
+    ],
+    "same_set": true,
+    "max_abs_dist_diff": 2.6000000000081513e-05
+   }
+  ]
+ },
+ "check4_generation_latency_s": {
+  "n": 24,
+  "mean": 4.62,
+  "max": 8.47
+ },
+ "check5": {
+  "english": {
+   "latency_s": 1.63,
+   "first_line": "The HRSD guide lists **14 professions** that fall within the scope of domestic workers.  ",
+   "has_sources": true,
+   "has_passages": true,
+   "passage_items": 5
+  },
+  "taglish": {
+   "latency_s": 2.24,
+   "first_line": "Ang end\u2011of\u2011service benefit para sa domestic worker ay **isang buwan ng sahod**.  ",
+   "has_sources": true,
+   "has_passages": true,
+   "passage_items": 5
+  },
+  "unanswerable": {
+   "latency_s": 7.16,
+   "first_line": "I cannot answer this based on the provided documents. The documents do not contain any information about the weather in Riyadh.",
+   "has_sources": true,
+   "has_passages": true,
+   "passage_items": 5
+  },
+  "empty_input": "Please type a question first.",
+  "input_600_chars": {
+   "len": 600,
+   "reply": "Your question is 600 characters long. Please keep it under 500 characters."
+  }
+ }
+}

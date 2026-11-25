@@ -1,3 +1,4 @@
+# Goats RAG chatbot web app: answers Filipino HSW rights questions in Saudi Arabia from official documents.
 """Goats RAG chatbot: household service workers (HSW) in Saudi Arabia. ITC 508, Jose Rizal University.
 
 Hosted copy of the notebook chatbot (Goats_RAG_Chatbot_Source_Code_ran.ipynb). Settings, prompt, context format and

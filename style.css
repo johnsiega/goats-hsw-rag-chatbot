@@ -1,7 +1,7 @@
 /* Goats chatbot UI. Presentation only. System fonts, no external requests.
    Tonal palette: every colour is derived from the single accent hue below (Material-You style tones). */
 :root {
-  --hue: 185;
+  --hue: 300;
   --bg: oklch(97.5% .008 var(--hue));
   --card: oklch(99.5% .004 var(--hue));
   --glass: oklch(99% .006 var(--hue) / .74);
